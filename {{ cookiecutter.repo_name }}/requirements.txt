@@ -28,10 +28,7 @@ fake
 pony
 jinja2-time
 
-
 # backwards compatibility
 pathlib2
-{% endif %}
-
 
 pytorch

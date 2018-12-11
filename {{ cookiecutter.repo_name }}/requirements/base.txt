@@ -1,14 +1,19 @@
+# requirements for {{cookiecutter.project_name}}
 wheel
-
-{% if cookiecutter.use_whitenoise == 'y' -%}
-whitenoise
-{%- endif %}
 
 # Images
 Pillow
 
 
 # Flask Stuff
+flask-appbuilder
+click
+colorama
+flask-sqlalchemy
+flask-login
+flask-openid
+flask-wtform
+flask-Babel
 flask-sqlalchemy
 flask_humanize
 sqlalchemy_utils
@@ -18,7 +23,7 @@ sqlalchemy_searchable
 flask-msearch
 flask-mail
 flask-humanize
-
+psycopg2
 
 # Unicode slugification
 awesome-slugify=
@@ -41,20 +46,15 @@ psycopg2
 raven
 WebTest
 hiredis
-uwsgi
-whitenoise
 gunicorn
 
 # brotlipy
 factory_boy
 
 # external requirements
-click
 Sphinx
 coverage
 flake8
-flask-appbuilder
-psycopg2
 sqlalchemy
 gevent
 arrow
@@ -63,3 +63,6 @@ pony
 # Web Data
 newspaper
 requests
+mixer
+faker
+

@@ -9,7 +9,6 @@
     "company_name": "DataCraft Ltd",
     "website": "https://www.datacraft.co.ke",
     "command_line_interface": ["click", "plain", "argparse", "no"],
-    "command_line_interface_bin_name": "{{ cookiecutter.command_line_interface}}",
     "use_docker": "y",
     "version": "0.1.0.dev0",
     "timezone": "Africa/Nairobi",

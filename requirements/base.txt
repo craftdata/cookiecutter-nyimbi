@@ -28,10 +28,8 @@ pytz
 
 
 
-{% if cookiecutter.use_celery == "y" %}
 celery
 'dramatiq[rabbitmq, watch]'
-{% endif %}
 
 
 # Your custom requirements go here

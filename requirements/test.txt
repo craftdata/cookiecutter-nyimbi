@@ -1,12 +1,6 @@
 # Test dependencies go here.
 -r base.txt
 
-{% if cookiecutter.windows == 'y' -%}
-# Python-PostgreSQL Database Adapter
-# If using Win for dev, this assumes Unix in test/prod
-psycopg2
-{%- endif %}
-
 coverage
 flake
 factory-boy==2.9.2

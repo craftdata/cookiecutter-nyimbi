@@ -2,8 +2,8 @@
 \ProvidesPackage{mypage}
 \RequirePackage{setspace}
 
-\def\school#1{\gdef\@school{#1}}
-\def\@school{\@latex@warning@no@line{No \noexpand\school given}}
+\def\company_name#1{\gdef\@company_name{#1}}
+\def\@company_name{\@latex@warning@no@line{No \noexpand\company_name given}}
 \def\course#1{\gdef\@course{#1}}
 \def\@course{\@latex@warning@no@line{No \noexpand\course given}}
 \def\coursenum#1{\gdef\@coursenum{#1}}
@@ -38,7 +38,7 @@
 %- HEADING --%
 %%%%%%%%%%%%%%
 
-\textsc{\LARGE \@school}\\[2cm] % Name of your university/college
+\textsc{\LARGE \@company_name}\\[2cm] % Name of your university/college
 \textsc{\Large \@course}\\[0.5cm] % Major heading such as course name
 \textsc{\large \@coursenum}\\[0.5cm] % Minor heading such as course title
 

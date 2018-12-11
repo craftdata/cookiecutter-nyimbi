@@ -3,7 +3,7 @@
 %------ Identification -------%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{SelimArticle}[17/02/14 Selim's template for school]
+\ProvidesClass{SelimArticle}[17/02/14 Selim's template for company_name]
 \LoadClass[fleqn, 12pt]{article}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

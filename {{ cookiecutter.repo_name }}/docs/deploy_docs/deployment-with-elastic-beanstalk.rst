@@ -20,13 +20,13 @@ Instructions
 
 If you haven't done so, create a directory of environments::
 
-  eb init -p python3.4 MY_PROJECT_SLUG
+  eb init -p python3.4 MY_REPO_NAME
 
-Replace `MY_PROJECT_SLUG` with the value you entered for `project_slug`.
+Replace `MY_REPO_NAME` with the value you entered for `repo_name`.
 
 Once that is done, create the environment (server) where the app will run::
 
-  eb create MY_PROJECT_SLUG
+  eb create MY_REPO_NAME
   # Note: This will eventually fail on a postgres error, because postgres doesn't exist yet
 
 Now make sure you are in the right environment::
@@ -35,7 +35,7 @@ Now make sure you are in the right environment::
 
 If you are not in the right environment, then put yourself in the correct one::
 
-  eb use MY_PROJECT_SLUG
+  eb use MY_REPO_NAME
 
 Set the environment variables. Notes:  You will be prompted if the `.env` file is missing. The script will ignore any PostgreSQL values, as RDS uses it's own system::
 

@@ -124,18 +124,18 @@ it needs to do is to run `docker-compose -f production.yml up` in your projects 
 
 If you are using `supervisor`, you can use this file as a starting point::
 
-    [program:{{cookiecutter.project_slug}}]
+    [program:{{cookiecutter.repo_name}}]
     command=docker-compose -f production.yml up
-    directory=/path/to/{{cookiecutter.project_slug}}
+    directory=/path/to/{{cookiecutter.repo_name}}
     redirect_stderr=true
     autostart=true
     autorestart=true
     priority=10
 
-Place it in `/etc/supervisor/conf.d/{{cookiecutter.project_slug}}.conf` and run::
+Place it in `/etc/supervisor/conf.d/{{cookiecutter.repo_name}}.conf` and run::
 
     supervisorctl reread
-    supervisorctl start {{cookiecutter.project_slug}}
+    supervisorctl start {{cookiecutter.repo_name}}
 
 To get the status, run::
 

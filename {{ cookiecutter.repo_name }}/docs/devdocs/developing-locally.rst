@@ -17,9 +17,9 @@ Then install the requirements for your local development::
 
     $ pip install -r requirements/local.txt
 
-Then, create a PostgreSQL database with the following command, where `[project_slug]` is what value you entered for your project's `project_slug`::
+Then, create a PostgreSQL database with the following command, where `[repo_name]` is what value you entered for your project's `repo_name`::
 
-    $ createdb [project_slug]
+    $ createdb [repo_name]
 
 You can now run the usual Django ``migrate`` and ``runserver`` commands::
 

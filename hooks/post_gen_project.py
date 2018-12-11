@@ -8,6 +8,10 @@
 # Date              : 12.12.2018
 # Last Modified Date: 12.12.2018
 # -*- coding: utf-8 -*-
+# File              : hooks/post_gen_project.py
+# Date              : 12.12.2018
+# Last Modified Date: 12.12.2018
+# -*- coding: utf-8 -*-
 # File              : post_gen_project.py
 # Date              : 11.12.2018
 # Last Modified Date: 11.12.2018
@@ -221,8 +225,7 @@ def remove_elasticbeanstalk():
         shutil.rmtree(docs_dir_location)
 
     filenames = ["ebsetenv.py", ]
-    if '{{ cookiecutter.use_heroku }}'.lower() != 'y':
-        filenames.append("requirements.txt")
+    filenames.append("requirements.txt")
     for filename in filenames:
         os.remove(os.path.join(
             PROJECT_DIRECTORY, filename

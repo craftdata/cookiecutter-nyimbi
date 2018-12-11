@@ -1,5 +1,5 @@
 \documentclass
-{%- if "y" in cookiecutter.doc_nomenclature|lower or "t" in cookiecutter.nomenclature|lower -%}
+{%- if "y" in cookiecutter.nomenclature|lower or "t" in cookiecutter.nomenclature|lower -%}
 [Nomencl]
 {%- endif -%}
 {SelimArticle}
@@ -14,7 +14,7 @@
 \newpage
 {%- endif %}
 % Begin writing here.
-{% if "y" in cookiecutter.doc_bibtex|lower or "t" in cookiecutter.doc_bibtex|lower %}
+{% if "y" in cookiecutter.bibtex|lower or "t" in cookiecutter.bibtex|lower %}
 \bibliographystyle{IEEEtran}
 \bibliography{dabib}
 {%- endif %}

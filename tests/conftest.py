@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+# File              : tests/conftest.py
+# Date              : 11.12.2018
+# Last Modified Date: 11.12.2018
 import sys
 import pytest
 import shutil
@@ -10,7 +15,7 @@ args = {
         'project_name': 'DrivenData',
         'author_name': 'DrivenData',
         'open_source_license': 'BSD-3-Clause',
-        'python_interpreter': 'python'
+        'python_interpreter': 'python3'
         }
 
 
@@ -35,13 +40,13 @@ def default_baked_project(tmpdir_factory, request):
     )
 
     pn = pytest.param.get('project_name') or 'project_name'
-    
+
     # project name gets converted to lower case on Linux but not Mac
     pn = system_check(pn)
 
     proj = out_dir / pn
     request.cls.path = proj
-    yield 
+    yield
 
     # cleanup after
     shutil.rmtree(out_dir)

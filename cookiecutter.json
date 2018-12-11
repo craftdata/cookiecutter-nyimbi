@@ -15,7 +15,7 @@
     "use_celery": "n",
     "use_pycharm": "y",
     "windows": "n",
-    "year": ""{% now 'utc', '%Y' %}",
+    "year": "{% now 'utc', '%Y' %}",
     "sphinx_theme": ["alabaster","sphinx-rtd-theme", "sphinx-py3doc-enhanced-theme"],
     "open_source_license": ["MIT", "BSD-3-Clause", "No license file"],
     "company_name": "DataCraft Ltd",

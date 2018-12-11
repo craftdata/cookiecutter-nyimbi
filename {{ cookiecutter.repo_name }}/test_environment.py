@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# File              : test_environment.py
+# Date              : 11.12.2018
+# Last Modified Date: 11.12.2018
+# -*- coding: utf-8 -*-
 # File              : {{ cookiecutter.repo_name }}/test_environment.py
 # Date              : 11.12.2018
 # Last Modified Date: 11.12.2018
@@ -9,7 +13,7 @@
 # Last Modified Date: 11.12.2018
 import sys
 
-REQUIRED_PYTHON = "python3" #"{{ cookiecutter.python_interpreter }}"
+REQUIRED_PYTHON = "python3"
 
 
 def main():

@@ -1,4 +1,7 @@
 #!/bin/bash
+# File              : pre-commit.githook
+# Date              : 11.12.2018
+# Last Modified Date: 11.12.2018
 # vim: et ts=4 sw=4 ft=sh
 
 # Interesting post on max line length:
@@ -31,34 +34,8 @@ _get_files() {
 # Most spammy checks first so the most likely useful ones are at the
 # bottom and thus less likely to scroll out of view immediately
 
-# SASSLint
-_get_files '*.scss'
-if [[ ${#FILES[@]} -ne 0 ]]; then
-    if ! RESULT=$(FORCE_COLOR=1 $SASSLINT_CMD -vq "${FILES[@]}"); then
-        STATUS=1
-        echo "${RED}There are SCSS errors in your code:${RESET}"
-        echo "$RESULT"
-    elif [[ -n "$RESULT" ]] ; then
-        STATUS=1
-        echo "${BRIGHTYELLOW}There are SCSS warnings in your code:${RESET}"
-        echo "$RESULT"
-    fi
-fi
 
 
-# ESLint
-_get_files '*.js' '*.jsx'
-if [[ ${#FILES[@]} -ne 0 ]]; then
-    if ! RESULT=$($ESLINT_CMD --color "${FILES[@]}"); then
-        STATUS=1
-        echo "${RED}There are JS errors in your code:${RESET}"
-        echo "$RESULT"
-    elif [[ -n "$RESULT" ]] ; then
-        STATUS=1
-        echo "${BRIGHTYELLOW}There are JS warnings in your code:${RESET}"
-        echo "$RESULT"
-    fi
-fi
 
 
 # PEP8

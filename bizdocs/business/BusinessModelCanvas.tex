@@ -1,0 +1,112 @@
+\documentclass[a4paper]{article}
+
+\usepackage[english]{babel}
+\usepackage[utf8]{inputenc}
+
+\usepackage{tikz}
+
+
+\title{ {{cookiecutter.project_name}} }
+
+
+\begin{document}
+\maketitle
+
+\begin{figure}[!h]
+\centering
+\def\layersep{3em}
+\def\layerwidth{50em}
+\makebox[\textwidth][c]{
+\begin{tikzpicture}[
+% Here are defined the bocks and post-its parameters (e.g. shape, color and 
+%rotation)
+bloc/.style={
+  rectangle, rounded corners,
+  draw=black, very thick, inner sep=0,
+  fill=blue!30 },
+bloc1/.style={
+  bloc,
+minimum width = \layerwidth/5,
+minimum height= 4*\layersep },
+bloc2/.style={
+bloc,
+minimum width=\layerwidth/5,
+minimum height=2*\layersep },
+bloc3/.style={
+bloc,
+text width=\layerwidth/2,
+minimum height=\layersep },
+postit/.style={
+rectangle, text width=\layerwidth/5.5,
+%rotate around={10:(1,0)},
+text centered, fill=yellow },
+title/.style={
+anchor=north west },
+]
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+%%% DRAW THE CANVAS
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The 7 top blocks
+
+% We start drawing the top left bloc here
+% 1st, the block, then the title, then the post-it
+\node[bloc1] (b0) at (0*\layerwidth/10,4*\layersep) {};
+\node[title] at (b0.north west) {\underline{Key Partners}};
+\node[postit] at (b0.center) {what ever};
+
+\node[bloc2] (b1) at (2*\layerwidth/10,5*\layersep) {};
+\node[title] at (b1.north west) {\underline{Key Activities}};
+\node[postit] at (b1.center) {what ever};
+
+\node[bloc2] (b2) at (2*\layerwidth/10,3*\layersep) {};
+\node[title] at (b2.north west) {\underline{Key Resources}};
+\node[postit] at (b2.center) {intellectual property};
+
+
+\node[bloc1] (b3) at (4*\layerwidth/10,4*\layersep) {};
+\node[title] at (b3.north west) {\underline{Value Propositions}};
+\node[postit] at (b3.center) {
+\begin{itemize}
+\item Performance, 
+\item convenience, 
+\item ease of use 
+\item Blah, blah
+\item Yada yada yada
+\item Etc etc
+\end{itemize}
+};
+
+
+
+\node[bloc2] (b4) at (6*\layerwidth/10,5*\layersep) {};
+\node[title] at (b4.north west) {\underline{Customer Relationships}};
+\node[postit] at (b4.center) {Dedicated Personal assistance};
+
+\node[bloc2] (b5) at (6*\layerwidth/10,3*\layersep) {};
+\node[title] at (b5.north west) {\underline{Channels}};
+\node[postit] at (b5.center) {direct channel};
+
+\node[bloc1] (b6) at (8*\layerwidth/10,4*\layersep) {};
+\node[title] at (b6.north west) {\underline{Customer Segments}};
+\node[postit] at (b6.center) { \begin{tabular}{c} Niche Market \\ One client 
+\end{tabular} };
+
+%%%% The 2 bottom blocks
+\node[bloc3] (b7) at (1.5*\layerwidth/10,1.5*\layersep) {};
+\node[title] at (b7.north west) {\underline{Cost Struture}};
+\node[postit] at (b7.center) {No cost};
+
+\node[bloc3] (b8) at (6.5*\layerwidth/10,1.5*\layersep) {};
+\node[title] at (b8.north west) {\underline{Revenue Streams}};
+\node[postit] at (b8.center) {Money !!};
+
+
+\end{tikzpicture}
+}
+\end{figure}
+
+{{cookiecutter.author_name}}
+
+\end{document}

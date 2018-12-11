@@ -1,0 +1,37 @@
+# local package
+-e .
+
+# external requirements
+click
+Sphinx
+coverage
+awscli
+flake8
+flask-appbuilder
+psycopg2
+sqlalchemy
+flask-sqlalchemy
+flask_humanize
+sqlalchemy_utils
+sqlalchemy_mixins
+sqlalchemy_continuum
+sqlalchemy_searchable
+flask-msearch
+gevent
+arrow
+humanize
+flask-mail
+pillow
+newspaper
+mixer
+fake
+pony
+jinja2-time
+
+
+# backwards compatibility
+pathlib2
+{% endif %}
+
+
+pytorch

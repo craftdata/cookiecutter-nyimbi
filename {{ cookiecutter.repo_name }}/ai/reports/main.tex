@@ -1,0 +1,21 @@
+\documentclass
+{%- if "y" in cookiecutter.doc_nomenclature|lower or "t" in cookiecutter.nomenclature|lower -%}
+[Nomencl]
+{%- endif -%}
+{SelimArticle}
+{% raw %}\input{./options}
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{document}
+\mytitlepage
+\tableofcontents
+\newpage{% endraw %}
+{%- if "y" in cookiecutter.nomenclature|lower or "t" in cookiecutter.nomenclature|lower %}
+\printnomenclature % Use makeidx.bat followed by two pdflatex reruns.
+\newpage
+{%- endif %}
+% Begin writing here.
+{% if "y" in cookiecutter.doc_bibtex|lower or "t" in cookiecutter.doc_bibtex|lower %}
+\bibliographystyle{IEEEtran}
+\bibliography{dabib}
+{%- endif %}
+\end{document}

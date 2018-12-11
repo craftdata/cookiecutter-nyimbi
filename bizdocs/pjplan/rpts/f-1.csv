@@ -1,0 +1,396 @@
+"Name";"Id";"Note";"Resources";"Start";"End";"Duration"
+"Tenda 1";"f1";"";"";"03/15/2016";"10/10/2016";209.7
+"  Planning Phase";"f1.PlanningPhase";"";"";"03/15/2016";"06/24/2016";101.7
+"    File ticket with gP Eng-ops for bugzilla closure";"f1.PlanningPhase.file_ticket";"";"";"03/15/2016";"03/15/2016";0.0
+"    Start Feature Submission";"f1.PlanningPhase.start_features_cal";"";"";"05/01/2016";"05/01/2016";0.0
+"    Create Tracker Bugs";"f1.PlanningPhase.bug_trackers";"See details at http://www.tenda.co.ke/wiki";"";"05/01/2016";"05/01/2016";0.0
+"    Conceptual Design Phase";"f1.PlanningPhase.design_concept";"";"";"05/01/2016";"06/10/2016";40.7
+"    Start Nightly Spins Compose Based on Rawhide";"f1.PlanningPhase.rawhide_spins";"";"";"05/03/2016";"05/03/2016";0.0
+"    Dev-Ops auto closure";"f1.PlanningPhase.Tenda_beta_eol";"";"";"05/29/2016";"05/29/2016";0.0
+"    Create Wiki";"f1.PlanningPhase.clean_market_wiki";"";"";"06/03/2016";"06/07/2016";4.0
+"    Cycle Marketing wiki pages for current release";"f1.PlanningPhase.cycle_market_wiki";"";"";"06/03/2016";"06/07/2016";4.0
+"    Wallpaper Design for Alpha";"f1.PlanningPhase.wallpaper_design";"";"";"06/10/2016";"06/24/2016";14.0
+"  First Day of Development";"f1.first_day";"";"";"05/01/2016";"05/01/2016";0.0
+"  Supplemental Wallpaper Process";"f1.supplement_wallpaper";"";"";"05/01/2016";"09/02/2016";124.7
+"    Supplemental Wallpaper Submission Period";"f1.supplement_wallpaper.supplement_wallpaper_submit";"";"";"05/01/2016";"08/23/2016";114.7
+"    Select Official Supplemental Wallpaper";"f1.supplement_wallpaper.decide_supplement_wallpaper";"";"";"08/23/2016";"08/23/2016";0.0
+"    Verify Supplemental Wallpaper Licenses";"f1.supplement_wallpaper.supplement_license_review";"";"";"08/24/2016";"08/31/2016";7.0
+"    Package Supplemental Wallpaper";"f1.supplement_wallpaper.package_supplemental_wallpaper";"";"";"08/31/2016";"09/02/2016";2.0
+"  Development Phase";"f1.DevelopmentPhase";"";"";"05/01/2016";"06/24/2016";54.7
+"    Start Development";"f1.DevelopmentPhase.devel_start";"";"";"05/01/2016";"05/01/2016";0.0
+"    Packaging and Development (precedes Alpha)";"f1.DevelopmentPhase.develop";"";"";"05/01/2016";"06/24/2016";54.7
+"  Testing Phase";"f1.TestingPhase";"";"";"05/01/2016";"09/07/2016";129.7
+"    Alpha Release";"f1.TestingPhase.alpha";"";"";"05/01/2016";"08/12/2016";103.7
+"      SHADOW: Three Weeks Before Feature Submission";"f1.TestingPhase.alpha.shadow_feature_submit_remind_3_weeks";"";"";"06/08/2016";"06/08/2016";0.0
+"      Request Feature Status Updates + Remind Submit Deadline";"f1.TestingPhase.alpha.feature_check_remind";"";"";"06/08/2016";"06/08/2016";0.0
+"      Update All Spins Wiki Pages From Previous Releases";"f1.TestingPhase.alpha.spins_wiki_update";"";"";"06/08/2016";"06/08/2016";0.0
+"      File All Release Engineering Tickets for Tenda 1 Alpha";"f1.TestingPhase.alpha.alpha_releng_tickets";"";"";"06/10/2016";"06/10/2016";0.0
+"      Feature Submission Deadline One Week away";"f1.TestingPhase.alpha.feature_submit_remind_1_week";"";"";"06/14/2016";"06/14/2016";0.0
+"      SHADOW: anchor for first blocker meeting";"f1.TestingPhase.alpha.shadow_alpha_blocker";"";"";"06/15/2016";"06/15/2016";0.0
+"      SHADOW: Two weeks before Feature Freeze";"f1.TestingPhase.alpha.shadow_feature_submission_deadline";"";"";"06/15/2016";"06/15/2016";0.0
+"      Feature Submission Deadline";"f1.TestingPhase.alpha.feature_submission_deadline";"";"";"06/15/2016";"06/15/2016";0.0
+"      Announce Feature Submission Closed";"f1.TestingPhase.alpha.feature_submission_deadline_announce";"";"";"06/15/2016";"06/15/2016";0.0
+"      Custom Spins Submission Deadline";"f1.TestingPhase.alpha.spins_submission_deadline";"";"";"06/15/2016";"06/15/2016";0.0
+"      Rawhide Rebase Warning to Package Maintainers";"f1.TestingPhase.alpha.warn_rawhide_rebase";"";"";"06/15/2016";"06/15/2016";0.0
+"      File Rawhide Rebase ticket with RHT Eng-ops";"f1.TestingPhase.alpha.ticket_rawhide_rebase";"";"";"06/15/2016";"06/15/2016";0.0
+"      Feature Submission Deadline Two Weeks away";"f1.TestingPhase.alpha.feature_submit_remind_2_weeks";"";"";"06/15/2016";"06/15/2016";0.0
+"      Submit Installer Build for QA Compose";"f1.TestingPhase.alpha.alpha_installer_build1";"";"";"06/15/2016";"06/15/2016";0.0
+"      Reminder: Alpha Blocker Meeting (f1alpha) #1";"f1.TestingPhase.alpha.remind_alpha_blocker1";"";"";"06/16/2016";"06/16/2016";0.0
+"      Create Installable Images for QA testing #1";"f1.TestingPhase.alpha.qa_alpha_compose1";"";"";"06/16/2016";"06/16/2016";0.0
+"      Pre-Alpha Rawhide Acceptance Test Plan #1";"f1.TestingPhase.alpha.alpha_rawhide_install1";"";"";"06/16/2016";"06/21/2016";5.0
+"      Submit Installer Build for QA Compose";"f1.TestingPhase.alpha.alpha_installer_build2";"";"";"06/16/2016";"06/16/2016";0.0
+"      SHADOW: 1.5 weeks before Alpha Compose";"f1.TestingPhase.alpha.shadow_before_alpha_compose";"";"";"06/17/2016";"06/17/2016";0.0
+"      Create Alpha Test Compose (TC)";"f1.TestingPhase.alpha.create_alpha_tc";"";"";"06/17/2016";"06/17/2016";0.0
+"      Alpha Blocker Meeting (f1alpha) #1";"f1.TestingPhase.alpha.alpha_blocker1";"";"";"06/17/2016";"06/17/2016";0.0
+"      Create Installable Images for QA testing #2";"f1.TestingPhase.alpha.qa_alpha_compose2";"";"";"06/17/2016";"06/17/2016";0.0
+"      Pre-Alpha Rawhide Acceptance Test Plan #2";"f1.TestingPhase.alpha.alpha_rawhide_install2";"";"";"06/17/2016";"06/24/2016";7.0
+"      Test Alpha 'Test Compose'";"f1.TestingPhase.alpha.test_alpha_tc";"";"";"06/17/2016";"06/27/2016";10.0
+"      SHADOW: Anchor Feature Freeze";"f1.TestingPhase.alpha.shadow_feature_freeze";"";"";"06/22/2016";"06/22/2016";0.0
+"      Feature Freeze (Testable|Complete)";"f1.TestingPhase.alpha.feature_freeze";"";"";"06/22/2016";"06/22/2016";0.0
+"      Announce Feature Freeze Reached";"f1.TestingPhase.alpha.feature_freeze_deadline_announce";"";"";"06/22/2016";"06/22/2016";0.0
+"      Remind Alpha Deadline in 1 week";"f1.TestingPhase.alpha.alpha_deadline_remind";"";"";"06/22/2016";"06/22/2016";0.0
+"      Spins Freeze--All Tenda 1 Spins Identified";"f1.TestingPhase.alpha.spins_freeze";"";"";"06/22/2016";"06/22/2016";0.0
+"      Branch Tenda 1 from Rawhide";"f1.TestingPhase.alpha.branch_rawhide";"";"";"06/22/2016";"06/22/2016";0.0
+"      Reflect supported versions in Bugzilla product description";"f1.TestingPhase.alpha.bugzilla_descrption";"";"";"06/22/2016";"06/22/2016";0.0
+"      Rebase Rawhide bugs to Tenda 1";"f1.TestingPhase.alpha.rawhide_rebase";"";"";"06/22/2016";"06/22/2016";0.0
+"      Orphan Rawhide Packages";"f1.TestingPhase.alpha.orphan";"";"";"06/22/2016";"06/22/2016";0.0
+"      Alpha Release Notes";"f1.TestingPhase.alpha.alpha_release_notes";"";"";"06/22/2016";"07/12/2016";20.3
+"        Validate Former Beat Writers";"f1.TestingPhase.alpha.alpha_release_notes.validate_beat_writers";"";"";"06/22/2016";"06/28/2016";6.3
+"        Notify Development About Alpha Release Notes";"f1.TestingPhase.alpha.alpha_release_notes.notify_devel_relnotes";"";"";"06/24/2016";"06/24/2016";0.0
+"        Recruit New Beat Writers";"f1.TestingPhase.alpha.alpha_release_notes.recruite_beat_writers";"";"";"06/28/2016";"07/05/2016";7.0
+"        Start Alpha Beat and Feature Page Review";"f1.TestingPhase.alpha.alpha_release_notes.start_alpha_beats";"";"";"06/29/2016";"06/29/2016";0.0
+"        Comb Beats and Feature Pages for Alpha";"f1.TestingPhase.alpha.alpha_release_notes.comb_alpha_beats";"";"";"06/29/2016";"07/01/2016";2.0
+"        Prepare Alpha Release Notes (1 page)";"f1.TestingPhase.alpha.alpha_release_notes.prep_alpha_notes";"";"";"07/01/2016";"07/11/2016";10.0
+"        Post Alpha Release Notes One-Page";"f1.TestingPhase.alpha.alpha_release_notes.post_notes";"";"";"07/12/2016";"07/12/2016";0.0
+"      Reminder: Alpha Blocker Meeting (f1alpha) #2";"f1.TestingPhase.alpha.remind_alpha_blocker2";"";"";"06/22/2016";"06/22/2016";0.0
+"      Remind < 85% complete Feature Owners";"f1.TestingPhase.alpha.feature_incomplete_nag";"";"";"06/22/2016";"06/22/2016";0.0
+"      Submit Installer Build for QA Compose";"f1.TestingPhase.alpha.alpha_installer_build3";"";"";"06/23/2016";"06/23/2016";0.0
+"      Deliver Incomplete Features to FESCo ";"f1.TestingPhase.alpha.feature_incomplete_fesco";"";"";"06/23/2016";"06/23/2016";0.0
+"      Alpha Blocker Meeting (f1alpha) #2";"f1.TestingPhase.alpha.alpha_blocker2";"";"";"06/24/2016";"06/24/2016";0.0
+"      Create Talking Points";"f1.TestingPhase.alpha.talking_points";"";"";"06/24/2016";"07/01/2016";7.0
+"      Create Installable Images for QA testing #3";"f1.TestingPhase.alpha.qa_alpha_compose3";"";"";"06/24/2016";"06/24/2016";0.0
+"      Pre-Alpha Rawhide Acceptance Test Plan #3";"f1.TestingPhase.alpha.alpha_rawhide_install3";"";"";"06/24/2016";"06/29/2016";5.0
+"      Alpha Change Deadline";"f1.TestingPhase.alpha.alpha_deadline";"";"";"06/24/2016";"06/24/2016";0.0
+"      Announce Alpha Change Deadline Reached";"f1.TestingPhase.alpha.alpha_deadline_announce";"";"";"06/24/2016";"06/24/2016";0.0
+"      Alpha Infrastructure Change Freeze";"f1.TestingPhase.alpha.alpha_infrastructure_freeze";"";"";"06/24/2016";"07/01/2016";7.0
+"      Build spin-kickstarts package from master";"f1.TestingPhase.alpha.alpha_spins_ks";"";"";"06/24/2016";"06/24/2016";0.0
+"      Finalize Alpha Wallpaper";"f1.TestingPhase.alpha.finalize_alpha_wallpaper";"";"";"06/24/2016";"06/29/2016";5.0
+"      Submit Kernel Build for Alpha RC Compose";"f1.TestingPhase.alpha.alpha_kernel_build";"";"";"06/24/2016";"06/24/2016";0.0
+"      Daily Review & Notification of Open Alpha Blocker Bugs";"f1.TestingPhase.alpha.daily_alpha_blocker";"";"";"06/27/2016";"06/30/2016";3.0
+"      Submit Installer Build for Alpha RC Compose";"f1.TestingPhase.alpha.alpha_installer_build";"";"";"06/27/2016";"06/27/2016";0.0
+"      Remind f-dev-announce to Rebuild All Translated Packages";"f1.TestingPhase.alpha.trans_software_rebuild1";"";"";"06/28/2016";"06/28/2016";0.0
+"      Compose Alpha Candidate";"f1.TestingPhase.alpha.create_alpha_compose";"";"";"06/28/2016";"06/28/2016";0.0
+"      Test Alpha Candidate";"f1.TestingPhase.alpha.test_alpha_candidate";"";"";"06/28/2016";"07/05/2016";7.0
+"      Reminder: Alpha Blocker Meeting (f1alpha) #3";"f1.TestingPhase.alpha.remind_alpha_blocker3";"";"";"06/29/2016";"06/29/2016";0.0
+"      Alpha Wallpaper Deadline";"f1.TestingPhase.alpha.alpha_wallpaper_deadline";"";"";"06/29/2016";"06/29/2016";0.0
+"      Blog About Alpha Wallpaper";"f1.TestingPhase.alpha.blog_alpha_wallpaper";"";"";"06/29/2016";"06/29/2016";0.0
+"      Package Alpha Wallpaper";"f1.TestingPhase.alpha.package_alpha_wallpaper";"";"";"06/29/2016";"07/01/2016";2.0
+"      Software String Freeze";"f1.TestingPhase.alpha.software_string_freeze";"";"";"06/29/2016";"06/29/2016";0.0
+"      Announce Software String Freeze Reached";"f1.TestingPhase.alpha.announce_software_string_freeze";"";"";"06/29/2016";"06/29/2016";0.0
+"      Software Translation";"f1.TestingPhase.alpha.software_translation";"";"";"06/29/2016";"08/03/2016";35.0
+"        Software Translation Period";"f1.TestingPhase.alpha.software_translation.trans_software";"";"";"06/29/2016";"07/20/2016";21.0
+"        Remind f-dev-announce to build F1 collection pkgs for trans team";"f1.TestingPhase.alpha.software_translation.remind_build_trans_software";"";"";"07/12/2016";"07/12/2016";0.0
+"        Create Rel-Eng ticket for Live Image compose for Software Review UI";"f1.TestingPhase.alpha.software_translation.request_review_image";"";"";"07/18/2016";"07/18/2016";0.0
+"        Build F-1 collection packages for all language translators";"f1.TestingPhase.alpha.software_translation.build_trans_software";"";"";"07/18/2016";"07/18/2016";0.0
+"        Compose of Live Image of Software Review UI for Translation";"f1.TestingPhase.alpha.software_translation.compose_review_image";"";"";"07/18/2016";"07/18/2016";0.0
+"        Review and correct software translation in built UI";"f1.TestingPhase.alpha.software_translation.trans_software_review";"";"";"07/19/2016";"07/27/2016";8.0
+"        Remind f-dev-announce to Rebuild All Translated Packages";"f1.TestingPhase.alpha.software_translation.trans_software_rebuild2";"";"";"07/27/2016";"07/27/2016";0.0
+"        Software: Translation Deadline (PO Files complete)";"f1.TestingPhase.alpha.software_translation.trans_software_deadline";"";"";"07/27/2016";"07/27/2016";0.0
+"        Software: Start Rebuild all translated packages";"f1.TestingPhase.alpha.software_translation.start_trans_rebuild";"";"";"07/27/2016";"07/27/2016";0.0
+"        Software: Rebuild all translated packages";"f1.TestingPhase.alpha.software_translation.trans_rebuild";"";"";"07/27/2016";"08/03/2016";7.0
+"      Reminder: Tenda 1 Alpha Go/No-Go Meeting";"f1.TestingPhase.alpha.remind_alpha_go_not";"";"";"06/30/2016";"06/30/2016";0.0
+"      Alpha Blocker Meeting (f1alpha) #3";"f1.TestingPhase.alpha.alpha_blocker3";"";"";"07/01/2016";"07/01/2016";0.0
+"      Feature Profiles";"f1.TestingPhase.alpha.feature_profiles";"";"";"07/01/2016";"07/15/2016";14.0
+"      Solicit Feedback on Alpha Wallpaper";"f1.TestingPhase.alpha.alpha_wallpaper_feedback";"";"";"07/01/2016";"07/15/2016";14.0
+"      Alpha Release Banner";"f1.TestingPhase.alpha.alpha_banner";"";"";"07/04/2016";"07/06/2016";2.0
+"        Create Alpha Website Banner";"f1.TestingPhase.alpha.alpha_banner.alpha_create_banner";"";"";"07/04/2016";"07/06/2016";2.0
+"        Add Alpha Banner to Website";"f1.TestingPhase.alpha.alpha_banner.alpha_publish_banner";"";"";"07/05/2016";"07/06/2016";1.0
+"      Tenda 1 Alpha Go/No-Go Meeting (17:00 US Eastern)";"f1.TestingPhase.alpha.alpha_go_not";"";"";"07/04/2016";"07/04/2016";0.0
+"      Reminder: Alpha Release Readiness Meeting";"f1.TestingPhase.alpha.alpha_meeting_reminder";"";"";"07/05/2016";"07/05/2016";0.0
+"      Start Stage & Sync Alpha to Mirrors";"f1.TestingPhase.alpha.start_stage_alpha";"";"";"07/05/2016";"07/05/2016";0.0
+"      Stage & Sync Alpha to Mirrors";"f1.TestingPhase.alpha.stage_alpha";"";"";"07/05/2016";"07/08/2016";3.0
+"      Reminder: Alpha Blocker Meeting (f1alpha) #4";"f1.TestingPhase.alpha.remind_alpha_blocker4";"";"";"07/06/2016";"07/06/2016";0.0
+"      Alpha Blocker Meeting (f1alpha) #4";"f1.TestingPhase.alpha.alpha_blocker4";"";"";"07/06/2016";"07/06/2016";0.0
+"      Notify Mirrors of Tenda 1 Alpha";"f1.TestingPhase.alpha.notify_mirrors_alpha";"";"";"07/06/2016";"07/06/2016";0.0
+"      Alpha Export Control Reporting";"f1.TestingPhase.alpha.alpha_export_control";"";"";"07/06/2016";"07/06/2016";0.0
+"      Create Splash Screens";"f1.TestingPhase.alpha.start_splash_screens";"";"";"07/08/2016";"07/14/2016";6.0
+"      Start Splash Screens";"f1.TestingPhase.alpha.start_splash_screens_cal";"";"";"07/08/2016";"07/08/2016";0.0
+"      Prepare wallpaper for Beta";"f1.TestingPhase.alpha.beta_wallpaper";"";"";"07/08/2016";"07/22/2016";14.0
+"      Tenda 1 Alpha Release Readiness Meeting";"f1.TestingPhase.alpha.alpha_meeting";"";"";"07/08/2016";"07/08/2016";0.0
+"      Create Alpha Announcement (Marketing & Docs)";"f1.TestingPhase.alpha.alpha_announce";"";"";"07/08/2016";"07/12/2016";4.0
+"      Alpha Public Availability";"f1.TestingPhase.alpha.alpha_drop";"";"";"07/08/2016";"07/08/2016";0.0
+"      NVR Update Check testing";"f1.TestingPhase.alpha.nvr_testing";"";"";"07/08/2016";"07/11/2016";3.0
+"      Alpha Testing";"f1.TestingPhase.alpha.test_alpha";"";"";"07/08/2016";"07/29/2016";21.0
+"      Review Firefox Bookmarks For Update";"f1.TestingPhase.alpha.review_bookmarks";"";"";"07/08/2016";"07/15/2016";7.0
+"      Finalize Splash Screens";"f1.TestingPhase.alpha.finalize_splash_screens";"";"";"07/14/2016";"07/20/2016";6.0
+"      Update and Package Firefox Bookmarks";"f1.TestingPhase.alpha.update_bookmarks";"";"";"07/15/2016";"07/19/2016";4.0
+"      Tenda Ambassador MDA Meetings Preparing For Tenda 1";"f1.TestingPhase.alpha.ambassador_start";"";"";"07/19/2016";"07/26/2016";7.0
+"      Regional teams call for Preparation of Media/SWAG";"f1.TestingPhase.alpha.start_swag";"";"";"07/19/2016";"07/19/2016";0.0
+"      Tag Updated Bookmarks Package for Tenda 1";"f1.TestingPhase.alpha.tag_bookmarks";"";"";"07/19/2016";"07/19/2016";0.0
+"      Regional Team Meetings and Select POC for Media production";"f1.TestingPhase.alpha.swag_poc";"";"";"07/20/2016";"07/27/2016";7.0
+"      Regional Teams Submit Funding Request For Swag/Media Production";"f1.TestingPhase.alpha.swag_funding_request";"";"";"07/20/2016";"07/27/2016";7.0
+"      End of Alpha Testing";"f1.TestingPhase.alpha.alpha_end";"";"";"07/29/2016";"07/29/2016";0.0
+"      Marketing: Beta One Page Release Notes";"f1.TestingPhase.alpha.beta_marketing_notes";"";"";"08/05/2016";"08/12/2016";7.0
+"    Beta Release";"f1.TestingPhase.beta";"";"";"05/01/2016";"09/07/2016";129.7
+"      Announce: Beta Release Readiness Meeting";"f1.TestingPhase.beta.beta_meeting_announce";"";"";"05/01/2016";"05/01/2016";0.0
+"      Beta Release Notes";"f1.TestingPhase.beta.beta_release_notes";"";"";"07/08/2016";"08/12/2016";35.0
+"        Write Unclaimed Wiki Beats";"f1.TestingPhase.beta.beta_release_notes.unclaimed_beats";"";"";"07/08/2016";"07/18/2016";10.0
+"        Remind Translation: Beta Rel Notes POT Coming";"f1.TestingPhase.beta.beta_release_notes.remind_trans_beta_notes";"";"";"07/18/2016";"07/18/2016";0.0
+"        Port Wiki to Publican";"f1.TestingPhase.beta.beta_release_notes.port_wiki_publican";"";"";"07/19/2016";"07/22/2016";3.0
+"        Remind announce-list & f-devel-announce: Wiki Freeze";"f1.TestingPhase.beta.beta_release_notes.remind_devel_beta_notes";"";"";"07/19/2016";"07/19/2016";0.0
+"        Wiki Freeze: Beta Release Notes";"f1.TestingPhase.beta.beta_release_notes.beta_wiki_freeze";"";"";"07/21/2016";"07/21/2016";0.0
+"        Ongoing build translation review htmls";"f1.TestingPhase.beta.beta_release_notes.build_trans_review";"";"";"07/21/2016";"07/28/2016";7.0
+"        Review and correct Beta Release Notes (daily buids html)";"f1.TestingPhase.beta.beta_release_notes.trans_review_beta";"";"";"07/21/2016";"07/28/2016";7.0
+"        Start nightly POT files all fed-rel-notes.rpm content";"f1.TestingPhase.beta.beta_release_notes.start_release_notes_pot1";"";"";"07/25/2016";"07/25/2016";0.0
+"        Generate nightly POT files all fed-rel-notes.rpm content";"f1.TestingPhase.beta.beta_release_notes.release_notes_pot1";"";"";"07/25/2016";"08/11/2016";17.0
+"        Translate Beta Release Notes";"f1.TestingPhase.beta.beta_release_notes.trans_release_notes";"";"";"07/25/2016";"08/12/2016";18.0
+"        Translation Deadline: Beta Release Notes (PO Files complete)";"f1.TestingPhase.beta.beta_release_notes.trans_release_notes_deadline";"";"";"07/28/2016";"07/28/2016";0.0
+"        Build f-r-n.rpm and Push to updates-candidate";"f1.TestingPhase.beta.beta_release_notes.build_beta_relnotes";"";"";"07/28/2016";"08/01/2016";4.0
+"        Reminder: Send Project Wide-Final Release Notes Deadlines";"f1.TestingPhase.beta.beta_release_notes.final_release_notes_reminder";"";"";"08/09/2016";"08/09/2016";0.0
+"        Build and Post Beta release-notes to docs.tenda.co.ke";"f1.TestingPhase.beta.beta_release_notes.web_notes";"";"";"08/11/2016";"08/11/2016";0.0
+"        Build and Post Technical Notes to docs.tenda.co.ke";"f1.TestingPhase.beta.beta_release_notes.tech_web_notes";"";"";"08/11/2016";"08/11/2016";0.0
+"      Reminder: Beta Blocker Meeting (f1beta) #1";"f1.TestingPhase.beta.remind_beta_blocker1";"";"";"07/11/2016";"07/11/2016";0.0
+"      File All Release Engineering Tickets for Tenda 1 Beta";"f1.TestingPhase.beta.beta_releng_tickets";"";"";"07/12/2016";"07/12/2016";0.0
+"      Beta Blocker Meeting (f1beta) #1";"f1.TestingPhase.beta.beta_blocker1";"";"";"07/13/2016";"07/13/2016";0.0
+"      Pre-Beta Acceptance Test Plan";"f1.TestingPhase.beta.beta_rawhide_install";"";"";"07/18/2016";"07/22/2016";4.3
+"      Reminder: Beta Blocker Meeting (f1beta) #2";"f1.TestingPhase.beta.remind_beta_blocker2";"";"";"07/18/2016";"07/18/2016";0.0
+"      Beta Blocker Meeting (f1beta) #2";"f1.TestingPhase.beta.beta_blocker2";"";"";"07/20/2016";"07/20/2016";0.0
+"      Deadline: Beta Splash Screens";"f1.TestingPhase.beta.splash_deadline";"";"";"07/20/2016";"07/20/2016";0.0
+"      Package: Beta Splash Screens";"f1.TestingPhase.beta.package_final_splash";"";"";"07/20/2016";"07/22/2016";2.0
+"      SHADOW: 1.5 weeks before Beta Compose";"f1.TestingPhase.beta.shadow_before_beta_compose";"";"";"07/21/2016";"07/21/2016";0.0
+"      Submit Installer Build for Beta TC Compose";"f1.TestingPhase.beta.beta_installer_build1";"";"";"07/21/2016";"07/21/2016";0.0
+"      Daily Review & Notification of Open Beta Blocker Bugs";"f1.TestingPhase.beta.daily_beta_blocker";"";"";"07/21/2016";"07/27/2016";6.0
+"      SHADOW: one week before Beta Deadeline";"f1.TestingPhase.beta.shadow_beta_deadline";"";"";"07/22/2016";"07/22/2016";0.0
+"      Remind Beta Deadline in 1 week";"f1.TestingPhase.beta.remind_beta_deadline";"";"";"07/22/2016";"07/22/2016";0.0
+"      Remind Features 100% Complete in 1 week";"f1.TestingPhase.beta.remind_final_freatures";"";"";"07/22/2016";"07/22/2016";0.0
+"      Build spin-kickstarts package from master";"f1.TestingPhase.beta.beta_spins_ks";"";"";"07/22/2016";"07/22/2016";0.0
+"      Package: Beta Wallpaper";"f1.TestingPhase.beta.package_beta_wallpaper";"";"";"07/22/2016";"07/26/2016";4.0
+"      Package: Supplemental Wallpaper";"f1.TestingPhase.beta.package_supplemental_wallpaper";"";"";"07/22/2016";"07/22/2016";0.0
+"      Create Beta Test Compose (TC)";"f1.TestingPhase.beta.create_beta_tc";"";"";"07/22/2016";"07/22/2016";0.0
+"      Test Beta 'Test Compose'";"f1.TestingPhase.beta.test_beta_tc";"";"";"07/22/2016";"08/01/2016";10.0
+"      Reminder: Beta Blocker Meeting (f1beta) #3";"f1.TestingPhase.beta.remind_beta_blocker3";"";"";"07/25/2016";"07/25/2016";0.0
+"      Beta Blocker Meeting (f1beta) #3";"f1.TestingPhase.beta.beta_blocker3";"";"";"07/27/2016";"07/27/2016";0.0
+"      Coordinate Media/Swag/Poster artwork with Design team";"f1.TestingPhase.beta.coordinate_swag_design";"";"";"07/28/2016";"08/11/2016";14.0
+"      Beta Change Deadline";"f1.TestingPhase.beta.beta_deadline";"";"";"07/29/2016";"07/29/2016";0.0
+"      Features 100% Complete Deadline";"f1.TestingPhase.beta.feature_complete";"";"";"07/29/2016";"07/29/2016";0.0
+"      Beta Infrastructure Change Freeze";"f1.TestingPhase.beta.beta_infrastructure_freeze";"";"";"07/29/2016";"08/12/2016";14.0
+"      Announce Beta Deadline & Feature Complete";"f1.TestingPhase.beta.announce_beta_deadline";"";"";"07/29/2016";"07/29/2016";0.0
+"      Create Count Down Graphic";"f1.TestingPhase.beta.create_countdown";"";"";"07/29/2016";"08/12/2016";14.0
+"      Submit Kernel Build for Beta RC Compose";"f1.TestingPhase.beta.beta_kernel_build";"";"";"07/29/2016";"07/29/2016";0.0
+"      Reminder: Beta Blocker Meeting (f1beta) #4";"f1.TestingPhase.beta.remind_beta_blocker4";"";"";"08/01/2016";"08/01/2016";0.0
+"      Deliver features < 100% to FESCo";"f1.TestingPhase.beta.final_feature_fesco";"";"";"08/01/2016";"08/01/2016";0.0
+"      Submit Installer Build for Beta RC Compose";"f1.TestingPhase.beta.beta_installer_build";"";"";"08/01/2016";"08/01/2016";0.0
+"      Compose Beta Candidate";"f1.TestingPhase.beta.create_beta_compose";"";"";"08/02/2016";"08/02/2016";0.0
+"      Test Beta Candidate";"f1.TestingPhase.beta.test_beta2";"";"";"08/02/2016";"08/09/2016";7.0
+"      Beta Blocker Meeting (f1beta) #4";"f1.TestingPhase.beta.beta_blocker4";"";"";"08/03/2016";"08/03/2016";0.0
+"      Reminder: Beta Release Readiness Meeting";"f1.TestingPhase.beta.beta_meeting_reminder";"";"";"08/04/2016";"08/04/2016";0.0
+"      Reminder: Tenda 1 Beta Go/No-Go Meeting";"f1.TestingPhase.beta.remind_beta_go_not";"";"";"08/04/2016";"08/04/2016";0.0
+"      Brief Ambassadors on upcoming release";"f1.TestingPhase.beta.brief_ambassadors";"";"";"08/05/2016";"08/12/2016";7.0
+"      Beta Release Banner";"f1.TestingPhase.beta.beta_banner";"";"";"08/08/2016";"08/10/2016";2.0
+"        Create Beta Website Banner";"f1.TestingPhase.beta.beta_banner.beta_create_banner";"";"";"08/08/2016";"08/10/2016";2.0
+"        Add Beta Banner to Website";"f1.TestingPhase.beta.beta_banner.beta_publish_banner";"";"";"08/09/2016";"08/10/2016";1.0
+"      Tenda 1 Beta Go/No-Go Meeting (17:00 US Eastern)";"f1.TestingPhase.beta.beta_go_not";"";"";"08/08/2016";"08/08/2016";0.0
+"      Tenda 1 Beta Release Readiness Meeting";"f1.TestingPhase.beta.beta_meeting";"";"";"08/09/2016";"08/09/2016";0.0
+"      Create Beta Announcement (Docs & Marketing)";"f1.TestingPhase.beta.beta_announce";"";"";"08/09/2016";"08/11/2016";2.0
+"      Start Stage & Sync Beta to Mirrors";"f1.TestingPhase.beta.start_stage_beta";"";"";"08/09/2016";"08/09/2016";0.0
+"      Stage & Sync Beta to Mirrors";"f1.TestingPhase.beta.stage_beta";"";"";"08/09/2016";"08/12/2016";3.0
+"      Notify Mirrors of Tenda 1 Beta";"f1.TestingPhase.beta.notify_mirrors_beta";"";"";"08/10/2016";"08/10/2016";0.0
+"      Beta Export Control Reporting";"f1.TestingPhase.beta.beta_export_control";"";"";"08/10/2016";"08/10/2016";0.0
+"      SHADOW: One Day before Public Beta release";"f1.TestingPhase.beta.shadow_before_beta_drop";"";"";"08/11/2016";"08/11/2016";0.0
+"      Publish Count Down Graphic";"f1.TestingPhase.beta.publish_countdown";"";"";"08/12/2016";"08/15/2016";3.0
+"      Beta Release Public Availability";"f1.TestingPhase.beta.beta_drop";"";"";"08/12/2016";"08/12/2016";0.0
+"      Beta Testing";"f1.TestingPhase.beta.beta_test";"";"";"08/12/2016";"09/01/2016";20.0
+"      Reminder to f-websites-list about POT/PO dates in 7 days";"f1.TestingPhase.beta.websites_trans_reminder";"";"";"08/12/2016";"08/12/2016";0.0
+"      Create DVD/CD label and sleeve artwork";"f1.TestingPhase.beta.media";"";"";"08/12/2016";"08/26/2016";14.0
+"      Regional Teams Call for Release Events";"f1.TestingPhase.beta.call_for_events";"";"";"08/16/2016";"08/16/2016";0.0
+"      Regional Teams Plan Regional Logistics for Release Events & File Budget Requests";"f1.TestingPhase.beta.logistics_budget";"";"";"08/16/2016";"08/30/2016";14.0
+"      Pre-RC Acceptance Test Plan";"f1.TestingPhase.beta.rc_rawhide_install";"";"";"08/23/2016";"08/29/2016";6.0
+"      Regional town hall meetings";"f1.TestingPhase.beta.irc_sessions";"";"";"08/24/2016";"09/07/2016";14.0
+"      Release Event Submission Deadline";"f1.TestingPhase.beta.event_deadline";"";"";"08/31/2016";"08/31/2016";0.0
+"      MAVC/gPivotal Review Budget Allocations";"f1.TestingPhase.beta.budget_allocations";"";"";"08/31/2016";"08/31/2016";0.0
+"      End of Beta Testing";"f1.TestingPhase.beta.testmile";"";"";"09/01/2016";"09/01/2016";0.0
+"  Tenda 1 Guides";"f1.all_guides";"";"";"05/01/2016";"09/15/2016";137.7
+"    Continue translation of guides in branch of previous release ";"f1.all_guides.continue_guides_trans";"";"";"05/01/2016";"08/05/2016";96.7
+"    Test master branches of guides against Alpha and correct";"f1.all_guides.test_branch_guides";"";"";"07/08/2016";"07/22/2016";14.0
+"    Reminder to Trans that new POT files are coming for all guides";"f1.all_guides.remind_trans_pot";"";"";"07/20/2016";"07/20/2016";0.0
+"    Branch Guides";"f1.all_guides.branch_guides";"";"";"07/22/2016";"07/22/2016";0.0
+"    Create POT files for All Guides";"f1.all_guides.guides_pot";"";"";"07/22/2016";"07/22/2016";0.0
+"    Notify trans that new Guide POT files available ";"f1.all_guides.notify_trans";"";"";"07/22/2016";"07/22/2016";0.0
+"    Translate All Guides (POT to PO)";"f1.all_guides.trans_all_guides";"";"";"07/22/2016";"07/22/2016";0.0
+"    Publish draft guides";"f1.all_guides.publish_draft";"";"";"07/22/2016";"07/22/2016";0.0
+"    Notify announce-list and f-devel-list draft guides available";"f1.all_guides.annouce_publish_draft";"";"";"07/22/2016";"07/22/2016";0.0
+"    Translate All Guides (POT to PO)";"f1.all_guides.guides_trans";"";"";"07/22/2016";"09/15/2016";55.0
+"    SHADOW: for Friday before Beta deadline";"f1.all_guides.shadow_before_beta_deadline";"";"";"07/29/2016";"07/29/2016";0.0
+"    Reminder to Trans that Final Guides POT files are coming";"f1.all_guides.remind_trans";"";"";"07/29/2016";"07/29/2016";0.0
+"    Remind new guide owners SRPM package review";"f1.all_guides.srpm_review";"";"";"08/08/2016";"08/08/2016";0.0
+"    Final Build All Guides: All Languages";"f1.all_guides.guides_final_build";"";"";"08/08/2016";"08/11/2016";3.0
+"    Test guides against Beta and correct";"f1.all_guides.test_guides_beta";"";"";"08/12/2016";"08/18/2016";6.0
+"    Refresh POT files for all guides against Beta";"f1.all_guides.refresh_pot";"";"";"08/18/2016";"08/18/2016";0.0
+"    Notify trans that POT files updated against Beta";"f1.all_guides.notify_trans_refresh";"";"";"08/18/2016";"08/18/2016";0.0
+"    Republish draft guides for Beta";"f1.all_guides.republish_draft";"";"";"08/18/2016";"08/18/2016";0.0
+"    Notify announce-list and f-devel-list revised draft guides available";"f1.all_guides.notify_revised_draft";"";"";"08/18/2016";"08/18/2016";0.0
+"    String Freeze All Guides";"f1.all_guides.guides_string_freeze";"";"";"09/01/2016";"09/01/2016";0.0
+"    Generate final POT files for Guides";"f1.all_guides.generate_final_pot";"";"";"09/01/2016";"09/01/2016";0.0
+"    Notify Trans of Final Guides POT availability";"f1.all_guides.notify_trans_final";"";"";"09/01/2016";"09/01/2016";0.0
+"    Daily builds of Final guides for Translation";"f1.all_guides.build_daily";"";"";"09/01/2016";"09/14/2016";13.0
+"    Review and correct Final Translated Guides (daily builds html)";"f1.all_guides.review_daily";"";"";"09/01/2016";"09/14/2016";13.0
+"    SHADOW: Translation Deadline: All Final Guides";"f1.all_guides.shadow_guides_trans_deadline";"";"";"09/06/2016";"09/06/2016";0.0
+"    Translation Deadline: All Final Guides";"f1.all_guides.guides_trans_deadline";"";"";"09/06/2016";"09/06/2016";0.0
+"    SHADOW: Publish all guides to docs.fp.o (html,html-single,pdf)";"f1.all_guides.shadow_publish_guides";"";"";"09/06/2016";"09/06/2016";0.0
+"    Publish all guides to docs.fp.o (html,html-single,pdf)";"f1.all_guides.publish_guides";"";"";"09/06/2016";"09/06/2016";0.0
+"  Public Relations";"f1.pr";"";"";"06/15/2016";"09/08/2016";85.3
+"    Creative team videos";"f1.pr.video";"";"";"06/15/2016";"09/07/2016";84.3
+"      Meet w/Creative to schedule videos";"f1.pr.video.video_schedule";"";"";"06/15/2016";"06/22/2016";7.0
+"      Make spotlight video #1";"f1.pr.video.video1";"";"";"07/27/2016";"08/17/2016";21.0
+"        Review video #1";"f1.pr.video.video1.review_spotlight1_video";"";"";"07/27/2016";"08/17/2016";21.0
+"        Publish spotlight video #1";"f1.pr.video.video1.release_spotlight1_video";"";"";"08/17/2016";"08/17/2016";0.0
+"      Make spotlight video #2";"f1.pr.video.video2";"";"";"08/10/2016";"08/31/2016";21.0
+"        Review video #2";"f1.pr.video.video2.review_spotlight2_video";"";"";"08/10/2016";"08/31/2016";21.0
+"        Publish spotlight video #2";"f1.pr.video.video2.release_spotlight2_video";"";"";"08/31/2016";"08/31/2016";0.0
+"      Make release video";"f1.pr.video.release_video";"";"";"08/11/2016";"09/07/2016";27.3
+"        Review release video";"f1.pr.video.release_video.review_release_video";"";"";"08/11/2016";"09/07/2016";27.3
+"        Publish release video";"f1.pr.video.release_video.release_video";"";"";"09/07/2016";"09/07/2016";0.0
+"    Beta press blog entry";"f1.pr.beta_release_blog";"";"";"07/15/2016";"08/12/2016";28.3
+"      Start drafting Beta blog";"f1.pr.beta_release_blog.beta_release_blog_draft";"";"";"07/15/2016";"07/29/2016";14.0
+"      Red Hat PR send Beta blog to Legal";"f1.pr.beta_release_blog.beta_release_blog_legal";"";"";"07/29/2016";"08/05/2016";7.0
+"      Red Hat PR send Beta blog to intl-pr list";"f1.pr.beta_release_blog.beta_release_blog_intl";"";"";"08/05/2016";"08/12/2016";7.3
+"      Red Hat PR publish and send Beta blog to media contacts";"f1.pr.beta_release_blog.beta_release_blog_drop";"";"";"08/12/2016";"08/12/2016";0.0
+"    Update Red Hat web site";"f1.pr.redhat_com_update";"";"";"07/27/2016";"09/07/2016";42.3
+"      Schedule meeting with Red Hat web team to plan launch";"f1.pr.redhat_com_update.web_graphics_discuss";"";"";"07/27/2016";"08/03/2016";7.0
+"      Send web promo ideas to Brand";"f1.pr.redhat_com_update.web_promo_to_brand";"";"";"08/03/2016";"08/10/2016";7.0
+"      Review and update www.tenda.co.ke copy";"f1.pr.redhat_com_update.web_copy_review";"";"";"08/10/2016";"08/17/2016";7.0
+"      Send updated copy to Web team";"f1.pr.redhat_com_update.web_copy_send_update";"";"";"08/17/2016";"08/24/2016";7.0
+"      Red Hat website changes go live";"f1.pr.redhat_com_update.rh_web_goes_live";"";"";"09/07/2016";"09/07/2016";0.0
+"    USB Keys and media pre-briefs";"f1.pr.usb_keys_prebriefs";"";"";"07/29/2016";"09/07/2016";40.3
+"      Purchase USB Keys";"f1.pr.usb_keys_prebriefs.buy_usb_keys";"";"";"07/29/2016";"08/05/2016";7.0
+"      Check LiveUSB press review sheet for readiness";"f1.pr.usb_keys_prebriefs.assess_press_kit";"";"";"07/29/2016";"08/05/2016";7.0
+"      Update LiveUSB press review sheet";"f1.pr.usb_keys_prebriefs.update_press_one_sheet";"";"";"08/05/2016";"08/12/2016";7.0
+"      Prep USB keys with pre-release";"f1.pr.usb_keys_prebriefs.prepare_usb_keys";"";"";"08/05/2016";"08/12/2016";7.0
+"      Send USB keys to Red Hat PR for distribution";"f1.pr.usb_keys_prebriefs.send_usb_keys";"";"";"08/12/2016";"08/17/2016";5.0
+"      Red Hat PR distribute USB keys to media contacts";"f1.pr.usb_keys_prebriefs.distribute_usb_keys";"";"";"08/15/2016";"08/22/2016";7.0
+"      Hold media prebrief interviews";"f1.pr.usb_keys_prebriefs.media_prebriefs";"";"";"08/31/2016";"09/07/2016";7.3
+"    Spotlight feature press blogs";"f1.pr.spotlight_feature_blogs";"";"";"08/03/2016";"08/31/2016";28.0
+"      Spotlight feature #1";"f1.pr.spotlight_feature_blogs.spotlight_feature1";"";"";"08/03/2016";"08/17/2016";14.0
+"        Draft spotlight #1 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature1.spotlight_feature1_draft";"";"";"08/03/2016";"08/10/2016";7.0
+"        Red Hat PR send spotlight #1 blog entry draft to legal";"f1.pr.spotlight_feature_blogs.spotlight_feature1.spotlight_feature1_legal";"";"";"08/10/2016";"08/17/2016";7.0
+"        SHADOW: Three weeks until GA";"f1.pr.spotlight_feature_blogs.spotlight_feature1.shadow_spotlight_feature1";"";"";"08/16/2016";"08/17/2016";1.0
+"        Red Hat PR publish spotlight #1 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature1.spotlight_feature1_drop";"";"";"08/17/2016";"08/17/2016";0.0
+"      Spotlight feature #2";"f1.pr.spotlight_feature_blogs.spotlight_feature2";"";"";"08/10/2016";"08/24/2016";14.0
+"        Draft spotlight #2 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature2.spotlight_feature2_draft";"";"";"08/10/2016";"08/17/2016";7.0
+"        Red Hat PR send spotlight #2 blog entry draft to legal";"f1.pr.spotlight_feature_blogs.spotlight_feature2.spotlight_feature2_legal";"";"";"08/17/2016";"08/24/2016";7.0
+"        SHADOW: Two weeks until GA";"f1.pr.spotlight_feature_blogs.spotlight_feature2.shadow_spotlight_feature2";"";"";"08/23/2016";"08/24/2016";1.0
+"        Red Hat PR publish spotlight #2 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature2.spotlight_feature2_drop";"";"";"08/24/2016";"08/24/2016";0.0
+"      Spotlight feature #3";"f1.pr.spotlight_feature_blogs.spotlight_feature3";"";"";"08/17/2016";"08/31/2016";14.0
+"        Draft spotlight #3 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature3.spotlight_feature3_draft";"";"";"08/17/2016";"08/24/2016";7.0
+"        Red Hat PR send spotlight #3 blog entry draft to legal";"f1.pr.spotlight_feature_blogs.spotlight_feature3.spotlight_feature3_legal";"";"";"08/24/2016";"08/31/2016";7.0
+"        SHADOW: One week until GA";"f1.pr.spotlight_feature_blogs.spotlight_feature3.shadow_spotlight_feature3";"";"";"08/30/2016";"08/31/2016";1.0
+"        Red Hat PR publish spotlight #3 blog entry";"f1.pr.spotlight_feature_blogs.spotlight_feature3.spotlight_feature3_drop";"";"";"08/31/2016";"08/31/2016";0.0
+"    GA press release";"f1.pr.ga_press_release";"";"";"08/10/2016";"09/07/2016";28.3
+"      Start drafting GA press release";"f1.pr.ga_press_release.ga_press_release_draft";"";"";"08/10/2016";"08/24/2016";14.0
+"      Red Hat PR send GA press release to Legal";"f1.pr.ga_press_release.ga_press_release_legal";"";"";"08/24/2016";"08/31/2016";7.0
+"      Red Hat PR send GA press release to intl-pr list";"f1.pr.ga_press_release.ga_press_release_intl";"";"";"08/31/2016";"09/07/2016";7.3
+"      Red Hat PR publish and send GA press release to media contacts";"f1.pr.ga_press_release.ga_press_release_drop";"";"";"09/07/2016";"09/07/2016";0.0
+"    CEO press blog entry";"f1.pr.ceo_blog";"";"";"08/22/2016";"09/08/2016";17.3
+"      Prepare a final RC on USB for CEO";"f1.pr.ceo_blog.ceo_prepare_final_rc";"";"";"08/22/2016";"08/24/2016";2.0
+"      Send final RC USB key to CEO";"f1.pr.ceo_blog.ceo_send_final_rc";"";"";"08/24/2016";"08/26/2016";2.0
+"      Solicit CEO feedback on pre-release";"f1.pr.ceo_blog.ceo_solicit_feedback";"";"";"08/26/2016";"09/01/2016";6.0
+"      Draft CEO blog";"f1.pr.ceo_blog.ceo_blog_draft";"";"";"09/01/2016";"09/06/2016";5.0
+"      Red Hat PR send CEO blog to Legal";"f1.pr.ceo_blog.ceo_blog_legal";"";"";"09/06/2016";"09/08/2016";2.3
+"      Red Hat PR publish and send CEO blog to media contacts";"f1.pr.ceo_blog.ceo_blog_drop";"";"";"09/08/2016";"09/08/2016";0.0
+"  Launch Phase";"f1.LaunchPhase";"";"";"07/29/2016";"10/10/2016";73.0
+"    Release Candidate";"f1.LaunchPhase.rc";"";"";"07/29/2016";"09/16/2016";49.0
+"      Final Release Notes";"f1.LaunchPhase.rc.ga_release_notes";"";"";"07/29/2016";"09/05/2016";38.0
+"        Translate Final Release Notes (POT to PO)";"f1.LaunchPhase.rc.ga_release_notes.ga_pot_trans";"";"";"07/29/2016";"09/01/2016";34.0
+"        Reminder to Development: Wiki Freeze in 7 days";"f1.LaunchPhase.rc.ga_release_notes.final_release_note_wiki_reminder";"";"";"08/11/2016";"08/11/2016";0.0
+"        Prepare GA Release Notes";"f1.LaunchPhase.rc.ga_release_notes.prep_ga_notes";"";"";"08/12/2016";"08/12/2016";0.0
+"        String Freeze: GA Release Notes";"f1.LaunchPhase.rc.ga_release_notes.ga_release_notes_freeze";"";"";"08/18/2016";"08/18/2016";0.0
+"        Port diff wiki content to Publican";"f1.LaunchPhase.rc.ga_release_notes.wiki_ga_port";"";"";"08/18/2016";"08/25/2016";7.0
+"        Remind Translation: RPM Freeze (no more POTs) in 5 days";"f1.LaunchPhase.rc.ga_release_notes.remind_trans_ga_notes";"";"";"08/22/2016";"08/22/2016";0.0
+"        Generate GA Release Notes POT files for Translation";"f1.LaunchPhase.rc.ga_release_notes.ga_release_notes_pot";"";"";"08/25/2016";"08/25/2016";0.0
+"        Build GA release note htmls for Translation";"f1.LaunchPhase.rc.ga_release_notes.build_trans_review_final";"";"";"08/26/2016";"09/01/2016";6.0
+"        Review and correct GA Release Notes (daily builds html)";"f1.LaunchPhase.rc.ga_release_notes.build_ga_trans_review";"";"";"08/26/2016";"09/01/2016";6.0
+"        Remind Translators of GA Release Notes Deadline in 4 days";"f1.LaunchPhase.rc.ga_release_notes.remind_ga_trans_deadline";"";"";"08/30/2016";"08/30/2016";0.0
+"        Translation Deadline: GA rel-notes (PO Files complete)";"f1.LaunchPhase.rc.ga_release_notes.ga_release_notes_po";"";"";"09/01/2016";"09/01/2016";0.0
+"        Build tenda-release-notes executable";"f1.LaunchPhase.rc.ga_release_notes.ga_release_notes_rpm";"";"";"09/01/2016";"09/05/2016";4.0
+"      Reminder: Final Blocker Meeting (f1blocker) #1";"f1.LaunchPhase.rc.remind_ga_blocker1";"";"";"08/08/2016";"08/08/2016";0.0
+"      Final Blocker Meeting (f1blocker) #1";"f1.LaunchPhase.rc.ga_blocker1";"";"";"08/10/2016";"08/10/2016";0.0
+"      Update Website Content";"f1.LaunchPhase.rc.web_content_update";"";"";"08/12/2016";"08/19/2016";7.0
+"      Reminder: Final Blocker Meeting (f1blocker) #2";"f1.LaunchPhase.rc.remind_ga_blocker2";"";"";"08/15/2016";"08/15/2016";0.0
+"      File All Release Engineering Tickets for Tenda 1 GA";"f1.LaunchPhase.rc.final_releng_tickets";"";"";"08/16/2016";"08/16/2016";0.0
+"      Final Blocker Meeting (f1blocker) #2";"f1.LaunchPhase.rc.ga_blocker2";"";"";"08/17/2016";"08/17/2016";0.0
+"      Website String Freeze";"f1.LaunchPhase.rc.web_freeze";"";"";"08/19/2016";"08/19/2016";0.0
+"      Create Website POT Files";"f1.LaunchPhase.rc.web_create_pot";"";"";"08/19/2016";"08/22/2016";3.0
+"      Reminder: Final Blocker Meeting (f1blocker) #3";"f1.LaunchPhase.rc.remind_ga_blocker3";"";"";"08/22/2016";"08/22/2016";0.0
+"      Translation Period for Website (POT to PO)";"f1.LaunchPhase.rc.trans_web";"";"";"08/22/2016";"09/02/2016";11.0
+"      SHADOW: one week before RC Compose";"f1.LaunchPhase.rc.shadow_before_final_compose";"";"";"08/24/2016";"08/24/2016";0.0
+"      Submit Installer Build for Final TC Compose";"f1.LaunchPhase.rc.final_installer_build1";"";"";"08/24/2016";"08/24/2016";0.0
+"      Final Blocker Meeting (f1blocker) #3";"f1.LaunchPhase.rc.ga_blocker3";"";"";"08/24/2016";"08/24/2016";0.0
+"      Daily Review & Notification of Open Final Blocker Bugs";"f1.LaunchPhase.rc.daily_ga_blocker";"";"";"08/25/2016";"08/31/2016";6.0
+"      Create 'Final' Test Compose (TC)";"f1.LaunchPhase.rc.create_final_tc";"";"";"08/25/2016";"08/25/2016";0.0
+"      Test 'Final' Test Compose (TC)";"f1.LaunchPhase.rc.test_final_tc";"";"";"08/25/2016";"08/31/2016";6.0
+"      Branch spin-kickstarts and build package from new branch";"f1.LaunchPhase.rc.package_spins_ks";"";"";"08/25/2016";"08/25/2016";0.0
+"      Spins kickstart package Freeze";"f1.LaunchPhase.rc.freeze_spins_ks";"";"";"08/25/2016";"08/25/2016";0.0
+"      Reminder: Final Blocker Meeting (f1blocker) #4";"f1.LaunchPhase.rc.remind_ga_blocker4";"";"";"08/29/2016";"08/29/2016";0.0
+"      Zero Day Release Notes";"f1.LaunchPhase.rc.zero_day_relnotes";"";"";"08/30/2016";"09/13/2016";14.3
+"        SHADOW: Seven work week days before GA";"f1.LaunchPhase.rc.zero_day_relnotes.shadow_zero_day";"";"";"08/30/2016";"08/30/2016";0.0
+"        0-Day rel-notes update docs.fp.org";"f1.LaunchPhase.rc.zero_day_relnotes.zero_day_web";"";"";"08/30/2016";"09/06/2016";7.3
+"        0-Day rel-notes build updated rpm";"f1.LaunchPhase.rc.zero_day_relnotes.zero_day_rpm";"";"";"08/30/2016";"09/06/2016";7.3
+"        0-Day rel-notes generate POT";"f1.LaunchPhase.rc.zero_day_relnotes.zero_day_pot";"";"";"08/30/2016";"09/06/2016";7.3
+"        Translate 0-Day Release Notes";"f1.LaunchPhase.rc.zero_day_relnotes.zero_day_trans";"";"";"08/30/2016";"09/06/2016";7.3
+"        Translation Deadline: 0-Day (PO Files complete)";"f1.LaunchPhase.rc.zero_day_relnotes.zero_day_deadline";"";"";"09/06/2016";"09/06/2016";0.0
+"        Add translated zero-day updates to docs.fp.org";"f1.LaunchPhase.rc.zero_day_relnotes.web_post";"";"";"09/06/2016";"09/06/2016";0.0
+"        Update and post Technical Notes to docs.tenda.co.ke";"f1.LaunchPhase.rc.zero_day_relnotes.post_tech_notes";"";"";"09/07/2016";"09/07/2016";0.0
+"        Push updated rel-notes RPMs to Updates repo";"f1.LaunchPhase.rc.zero_day_relnotes.push_updates_rpm";"";"";"09/13/2016";"09/13/2016";0.0
+"      SHADOW: one day before Final Deadline";"f1.LaunchPhase.rc.shadow_before_final_deadline";"";"";"08/31/2016";"08/31/2016";0.0
+"      Disable Kernel debug and submit new Kernel build for RC";"f1.LaunchPhase.rc.kernel_debug";"";"";"08/31/2016";"08/31/2016";0.0
+"      Package Final Wallpaper";"f1.LaunchPhase.rc.final_wallpaper";"";"";"08/31/2016";"08/31/2016";0.0
+"      Package Final Splash Screens";"f1.LaunchPhase.rc.final_splash";"";"";"08/31/2016";"08/31/2016";0.0
+"      Create GA Announcement (Docs & Marketing)";"f1.LaunchPhase.rc.create_ga_announce";"";"";"08/31/2016";"09/08/2016";8.3
+"      Final Blocker Meeting (f1blocker) #4";"f1.LaunchPhase.rc.ga_blocker4";"";"";"08/31/2016";"08/31/2016";0.0
+"      Final Change Deadline";"f1.LaunchPhase.rc.final_change_deadline";"";"";"09/01/2016";"09/01/2016";0.0
+"      Announce Final Freeze & Implications";"f1.LaunchPhase.rc.announce_final_change_deadline";"";"";"09/01/2016";"09/01/2016";0.0
+"      File Dev-ops ticket for Beta EOL Bugzilla warning";"f1.LaunchPhase.rc.eol_warning";"";"";"09/01/2016";"09/01/2016";0.0
+"      Final Blocker Meeting (f1blocker)--Blocks RC Compose";"f1.LaunchPhase.rc.ga_blocker5";"";"";"09/01/2016";"09/01/2016";0.0
+"      Create Final Release Banners";"f1.LaunchPhase.rc.ga_create_banners";"";"";"09/01/2016";"09/14/2016";13.0
+"      Submit Installer Build for Final RC Compose";"f1.LaunchPhase.rc.final_installer_build";"";"";"09/01/2016";"09/01/2016";0.0
+"      Video Conference Regional Teams Meet to Address Unresolved Events/Media/Swag Issues";"f1.LaunchPhase.rc.check_swag";"";"";"09/02/2016";"09/02/2016";0.0
+"      Final Infrastructure Change Freeze";"f1.LaunchPhase.rc.final_infrastructure_freeze";"";"";"09/02/2016";"09/16/2016";14.0
+"      Review and correct Website translations";"f1.LaunchPhase.rc.review_trans_web";"";"";"09/02/2016";"09/08/2016";6.0
+"      Compose 'Final' RC: DVD, Live, Spins";"f1.LaunchPhase.rc.start_final_compose";"";"";"09/02/2016";"09/05/2016";3.0
+"      Deliver RC to QA for Testing";"f1.LaunchPhase.rc.deliver_final";"";"";"09/05/2016";"09/05/2016";0.0
+"      Test 'Final' RC";"f1.LaunchPhase.rc.test_final";"";"";"09/05/2016";"09/06/2016";1.0
+"      Enable Tenda 1 Updates";"f1.LaunchPhase.rc.enable_updates";"";"";"09/05/2016";"09/05/2016";0.0
+"      Start Stage & Sync RC to Mirrors";"f1.LaunchPhase.rc.start_stage_final";"";"";"09/06/2016";"09/06/2016";0.0
+"      Notify Mirrors of Tenda 1 Final";"f1.LaunchPhase.rc.notify_mirrors_final";"";"";"09/06/2016";"09/06/2016";0.0
+"      Stage & Sync RC to Mirrors";"f1.LaunchPhase.rc.stage_final";"";"";"09/06/2016";"09/07/2016";1.0
+"      Reminder: Tenda 1 Final Go/No-Go Meeting";"f1.LaunchPhase.rc.remind_final_go_not";"";"";"09/06/2016";"09/06/2016";0.0
+"      Regional Coordination with Marketing for Release Events";"f1.LaunchPhase.rc.regional_marketing";"";"";"09/07/2016";"09/08/2016";1.0
+"      Final Export Control Reporting";"f1.LaunchPhase.rc.final_export_control";"";"";"09/07/2016";"09/07/2016";0.0
+"      GA Announcement available for translation (optional)";"f1.LaunchPhase.rc.translate_ga_announce";"";"";"09/08/2016";"09/15/2016";7.0
+"      Translation Deadline: Websites (POs done)";"f1.LaunchPhase.rc.finish_trans_web";"";"";"09/08/2016";"09/08/2016";0.0
+"      Publish Translations on Website (www.tenda.co.ke)";"f1.LaunchPhase.rc.publish_trans_web";"";"";"09/08/2016";"09/09/2016";1.0
+"      Reminder: Final Release Readiness Meeting";"f1.LaunchPhase.rc.final_meeting_reminder";"";"";"09/08/2016";"09/08/2016";0.0
+"      Regional Teams Obtain Final Release ISOs from Release Engineering for duplication";"f1.LaunchPhase.rc.early_iso";"";"";"09/08/2016";"09/13/2016";5.0
+"      Tenda 1 Final Go/No-Go Meeting (17:00 US Eeastern)";"f1.LaunchPhase.rc.final_go_not";"";"";"09/09/2016";"09/09/2016";0.0
+"      Tenda 1 Final Release Readiness Meeting";"f1.LaunchPhase.rc.ga_meeting";"";"";"09/13/2016";"09/13/2016";0.0
+"      Add Final Release Banners to Website";"f1.LaunchPhase.rc.ga_publish_banners";"";"";"09/14/2016";"09/15/2016";1.0
+"    Release Party Posters";"f1.LaunchPhase.release_posters";"";"";"08/12/2016";"09/08/2016";27.0
+"      Design Team Create Release Party Posters";"f1.LaunchPhase.release_posters.create_posters";"";"";"08/12/2016";"08/26/2016";14.0
+"      Polish/Finalize Release Party Posters";"f1.LaunchPhase.release_posters.polish_poster";"";"";"08/26/2016";"09/08/2016";13.0
+"    Update and freeze the screenshots page";"f1.LaunchPhase.screenshots";"";"";"08/19/2016";"08/26/2016";7.0
+"    Marketing: Final Screen Shots";"f1.LaunchPhase.final_screenshots";"";"";"08/26/2016";"09/02/2016";7.0
+"    Marketing: Final One Page Release Notes";"f1.LaunchPhase.final_marketing_notes";"";"";"08/26/2016";"09/02/2016";7.0
+"    Brief news distribution network";"f1.LaunchPhase.briefings";"";"";"08/26/2016";"09/02/2016";7.0
+"    Monitor news sites to provide corrections & info";"f1.LaunchPhase.monitor";"";"";"08/26/2016";"10/06/2016";41.0
+"    Reflect supported versions in Bugzilla product description";"f1.LaunchPhase.bugzilla_descrption";"";"";"09/07/2016";"09/07/2016";0.0
+"    Final (GA) Release";"f1.LaunchPhase.final";"";"";"09/07/2016";"09/07/2016";0.0
+"    Hold Release Events and Publish Event Reports";"f1.LaunchPhase.event_reports";"";"";"09/07/2016";"10/10/2016";33.0
+"    Build new spin-kickstarts package for updates (if necessary)";"f1.LaunchPhase.spins_ga_ks";"";"";"09/07/2016";"09/07/2016";0.0
+"    Marketing Retrospective";"f1.LaunchPhase.marketing_post";"";"";"09/07/2016";"09/21/2016";14.0
+"    Send Email Reminder About Tenda EOL Activities";"f1.LaunchPhase.remind_eol";"";"";"09/09/2016";"09/09/2016";0.0
+"  Name the Tenda 1.1 Release";"f1.naming";"";"";"08/17/2016";"09/10/2016";24.5
+"    Collect Tenda 1.1 Names on Wiki";"f1.naming.gather";"";"";"08/17/2016";"08/24/2016";7.5
+"    Board Review of Proposed Tenda 1.1 Names";"f1.naming.board";"";"";"08/24/2016";"08/29/2016";5.0
+"    Legal Review";"f1.naming.legal";"";"";"08/29/2016";"09/05/2016";7.0
+"    Voting";"f1.naming.vote";"";"";"09/05/2016";"09/09/2016";4.0
+"    Tenda 1.1 Release Name Announced";"f1.naming.announce_name";"";"";"09/10/2016";"09/10/2016";0.0

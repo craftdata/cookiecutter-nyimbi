@@ -1,0 +1,61 @@
+graph jd_aj {
+	label="Judiciary Ajira Architecture"
+
+	subgraph judiciary{
+		label="Judiciary"
+
+		dc[label="Audio/Video Capture"]
+        anot[label="Anotate"]
+		reg[label="Transit Register"]
+		j_qc[label="Quality Control"]
+        
+        dc -- anot
+        anot -- j_qc
+        j_qc -- reg
+        reg -- m_rec
+
+	}
+
+	subgraph mict{
+		label="Ajira Program"
+
+        m_rec[label="Receive/Acknowledge"]
+        m_hash[label="Hash and Store"]
+        m_split[label="Split on word boundaries"]
+        m_seq[label="Sequence"]
+        m_distrib[label="Assign"]
+        m_combine[label="Combine Fragments"]
+        m_comp[label="Compare"]
+        m_eval[label="Evaluate"]
+        m_qa[label="Quality Assurance"]
+        
+        // j_qc -- m_rec
+        m_rec -- m_hash
+        m_hash -- m_split
+        m_split -- m_seq
+        m_seq -- m_distrb
+
+        m_eval -- m_qa
+        m_qa --m_combine
+        m_combine -- j_qc
+	}
+
+	subgraph workers{
+		label="Workers"
+
+        w_req[label="Request Work"]
+        w_acc[label="Accept Work"]
+        w_perf[label="Transcribe"]
+        w_sub[label="Submit in Time"]
+
+        w_req -- m_distrib
+        m_distrib -- w_req
+        w_req -- w_acc
+        w_acc -- w_perf
+        w_perf -- w_sub
+        w_sub -- m_eval
+
+	}
+
+
+}

@@ -1,0 +1,144 @@
+@startuml
+' 'skin bluemodern
+hide footbox
+
+title Ajira Work Sequence (Simplified)
+
+' participant "Customer" as C
+actor "Customer" as C
+participant "Portal" as P
+participant "Ajira" as A
+participant "Engine" as E
+actor "Worker" as W
+
+[--> P : Incoming Data Stream
+C ->  P : Upload AV data
+' P --> C : Upload Registered
+P ->  A : register upload
+A --> E : deliver data
+E --> E : << hash data >>
+note left
+    Compare the customer submitted hash 
+    with the hash of the received data to 
+    ensure successful transmission
+end note
+
+alt Hash Equal
+    E --> A : << hash equal >>
+    A --> P : << data correct >>
+else Hash Not Equal
+    E --> A : << incorrect data>>
+    A --> P : << Data not correct>>
+    P -> C : Please upload again
+end
+
+A --> E : << quality ok? >>
+E --> E : << quality check >>
+
+alt Audio Quality Ok
+    E --> A : << quality ok >>
+    A --> P : << data accepted >>
+    P --> P : << register acceptance >> 
+    P ->  C : << EMAIL ACCPT >>
+else Audio Quality Bad
+    E --> A : <<quality bad >>
+    A --> P : <<Data Rejected >>
+    P -> C  : << EMAIL REJECT >>
+end
+
+group Internal Preparation
+E --> E : [STT Proc]
+note left
+    1. Machine Translation
+    2. Identify Word Boundaries
+    3. Split on equitemporal word boundaries
+    4. Pack Audio Metadata Chunks
+    5. Prioritize
+end note
+end
+
+group Worker Rating, Ranking and Accreditation
+W ->  P : <login>
+P --> A : << worker status >>
+A --> A : << establish credentials >>
+    alt Status Ok
+        A --> P: <<status ok >>
+        P --> W: <<logged in>>
+
+    else Status NOK
+        A --> P: <status nok>>
+        P --> W: << log out>>
+        P ->  W: <EMAIL ISSUE> 
+    end
+end
+
+
+== Repetition ==
+group Audio Processing
+    W -> P : Request Work
+    P -> A: <<work avaiable>>
+    A --> A: <<work available>>
+    note right
+        Select work based on priority
+        Worker capability
+        Deadlines
+    end note
+    alt Work Available
+        A --> P: Work Available
+        A -> P: Audio and Metadata
+        P --> W: Download link
+    else NO Work Available
+        A --> P : No work
+        P --> W : No Work available
+        P ->  W : Here are some courses to take 
+    end
+    W --> P: << submit transcript>>
+    P --> W: << submission registered >>
+    P -> A : <<submit package >>
+    A -> E : <<submit package >>
+    P -> W : <EMAIL Acknowledge Receipt>
+    group Quality Assurance and Ranking
+        E --> E: <<Do QA>>
+        note left
+            1. Fuzzy Match with corresponding package
+            2. Rate the equivalence
+        end note
+        alt Passes Threshold
+            E -> A: <<package passes>>
+            A --> A: update accounts
+            A -> P: <<package passes>>
+            P -> W : Email Calculated Value
+
+        else NOT pass threshold
+            E -> A : <<both transcripts>>
+            A -> P: Reject, request confirm
+            P -> W: Notice of Rejection
+        end
+
+        group Text Processing
+            E --> E: Prepare Transcript
+            note right
+                1. Stitch Chunks in Sequence
+                2. Diff with STT Output
+                3. Train MT
+                4. Check Grmmar, Spelling, Verb Noun Structure
+                5. Named Entity Extraction/Proper Nouns
+                6. Write tags from (4,5)
+                7. Hash and update metadata
+                8. Package for delivery
+            end note
+            E -> A: << update accounts>>
+            A --> E: << accounts updated>>
+            E -> A: <<package>>
+            A -> P: <package>
+            P -> C: Email TRSCPT Ready
+        end
+    end
+end
+
+
+
+
+
+
+@enduml

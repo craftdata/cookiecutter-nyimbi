@@ -1,0 +1,28 @@
+# Local development dependencies go here
+-r base.txt
+
+coverage
+Werkzeug
+factory-boy
+
+
+# improved REPL
+ipdb
+ipython
+cookiecutter
+
+
+# Documentation
+mkdocs
+mkdocs-cinder
+Sphinx
+
+
+# Testing
+pytest
+pytest-sugar
+invoke
+mixer
+fake
+factory-boy
+

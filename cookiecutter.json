@@ -25,6 +25,6 @@
     "custom_bootstrap_compilation": "y",
     "_extensions": ["jinja2_time.TimeExtension"],
     "_copy_without_render": [
-        "src/first_app/app/app/templates/*"
+        "src/first_app/app/*"
     ]
 }

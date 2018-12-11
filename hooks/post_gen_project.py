@@ -1,5 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+# File              : hooks/post_gen_project.py
+# Date              : 12.12.2018
+# Last Modified Date: 12.12.2018
+# -*- coding: utf-8 -*-
 # File              : post_gen_project.py
 # Date              : 11.12.2018
 # Last Modified Date: 11.12.2018
@@ -9,7 +13,7 @@ Does the following:
 1. Generates and saves random secret key
 2. Removes the taskapp if celery isn't going to be used
 3. Removes the .idea directory if PyCharm isn't going to be used
-4. Copy files from /docs/ to {{ cookiecutter.project_slug }}/docs/
+4. Copy files from /docs/ to {{ cookiecutter.repo_name }}/docs/
 
     TODO: this might have to be moved to a pre_gen_hook
 
@@ -123,7 +127,7 @@ def remove_task_app(project_directory):
     # Determine the local_setting_file_location
     task_app_location = os.path.join(
         PROJECT_DIRECTORY,
-        '{{ cookiecutter.project_slug }}/taskapp'
+        '{{ cookiecutter.repo_name }}/taskapp'
     )
     shutil.rmtree(task_app_location)
 

@@ -4,12 +4,6 @@
 # Date              : 12.12.2018
 # Last Modified Date: 12.12.2018
 # -*- coding: utf-8 -*-
-# File              : hooks/post_gen_project.py
-# Date              : 12.12.2018
-# Last Modified Date: 12.12.2018
-# -*- coding: utf-8 -*-
-# File              : hooks/post_gen_project.py
-# Date              : 12.12.2018
 # Last Modified Date: 12.12.2018
 # -*- coding: utf-8 -*-
 # File              : post_gen_project.py
@@ -241,6 +235,6 @@ def remove_open_source_files():
         ))
 
 
-make_secret_key(PROJECT_DIRECTORY)
+# make_secret_key(PROJECT_DIRECTORY)
 
 

@@ -41,5 +41,6 @@
     "s3_bucket": "a",
     "aws_profile": "a",
     "year": "{% now 'utc', '%Y' %}",
+    "custom_bootstrap_compilation": "y",
     "_extensions": ["jinja2_time.TimeExtension"]
 }

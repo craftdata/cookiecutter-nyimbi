@@ -39,6 +39,7 @@
     "doc_bibtex":"yes",
     "doc_nomenclature":"yes",
     "s3_bucket": "a",
+    "aws_profile": "a",
     "year": "{% now 'utc', '%Y' %}",
     "_extensions": ["jinja2_time.TimeExtension"]
 }

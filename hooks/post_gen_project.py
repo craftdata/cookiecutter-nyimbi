@@ -4,6 +4,10 @@
 # Date              : 12.12.2018
 # Last Modified Date: 12.12.2018
 # -*- coding: utf-8 -*-
+# File              : hooks/post_gen_project.py
+# Date              : 12.12.2018
+# Last Modified Date: 12.12.2018
+# -*- coding: utf-8 -*-
 # File              : post_gen_project.py
 # Date              : 11.12.2018
 # Last Modified Date: 11.12.2018
@@ -151,8 +155,7 @@ def remove_heroku_files():
     Removes files needed for heroku if it isn't going to be used
     """
     filenames = ["Procfile", "runtime.txt"]
-    if '{{ cookiecutter.use_elasticbeanstalk_experimental }}'.lower() != 'y':
-        filenames.append("requirements.txt")
+    filenames.append("requirements.txt")
     for filename in ["Procfile", "runtime.txt"]:
         file_name = os.path.join(PROJECT_DIRECTORY, filename)
         remove_file(file_name)
@@ -235,70 +238,6 @@ def remove_open_source_files():
         ))
 
 
-# IN PROGRESS
-# def copy_doc_files(project_directory):
-#     cookiecutters_dir = DEFAULT_CONFIG['cookiecutters_dir']
-#     cookiecutter_django_dir = os.path.join(
-#         cookiecutters_dir,
-#         'cookiecutter-django',
-#         'docs'
-#     )
-#     target_dir = os.path.join(
-#         project_directory,
-#         'docs'
-#     )
-#     for name in os.listdir(cookiecutter_django_dir):
-#         if name.endswith('.rst') and not name.startswith('index'):
-#             src = os.path.join(cookiecutter_django_dir, name)
-#             dst = os.path.join(target_dir, name)
-#             shutil.copyfile(src, dst)
-
-# Generates and saves random secret key
 make_secret_key(PROJECT_DIRECTORY)
 
-# if '{{ cookiecutter.use_celery }}'.lower() == 'n':
-#     remove_task_app(PROJECT_DIRECTORY)
 
-# # Removes the .idea directory if PyCharm isn't going to be used
-# if '{{ cookiecutter.use_pycharm }}'.lower() != 'y':
-#     remove_pycharm_dir(PROJECT_DIRECTORY)
-
-# # Removes all heroku files if it isn't going to be used
-# if '{{ cookiecutter.use_heroku }}'.lower() != 'y':
-#     remove_heroku_files()
-
-# # Removes all docker files if it isn't going to be used
-# if '{{ cookiecutter.use_docker }}'.lower() != 'y':
-#     remove_docker_files()
-
-# # Removes all JS task manager files if it isn't going to be used
-# if '{{ cookiecutter.js_task_runner}}'.lower() == 'gulp':
-#     remove_grunt_files()
-# elif '{{ cookiecutter.js_task_runner}}'.lower() == 'grunt':
-#     remove_gulp_files()
-# else:
-#     remove_gulp_files()
-#     remove_grunt_files()
-#     remove_packageJSON_file()
-
-# # Display a warning if use_docker and use_grunt are selected. Grunt isn't
-# #   supported by our docker config atm.
-# if '{{ cookiecutter.js_task_runner }}'.lower() in ['grunt', 'gulp'] and '{{ cookiecutter.use_docker }}'.lower() == 'y':
-#     print(
-#         "You selected to use docker and a JS task runner. This is NOT supported out of the box for now. You "
-#         "can continue to use the project like you normally would, but you will need to add a "
-#         "js task runner service to your docker configuration manually."
-#     )
-
-
-# # Removes files needed for the GPLv3 licence if it isn't going to be used.
-# if '{{ cookiecutter.open_source_license}}' != 'GPLv3':
-#     remove_copying_files()
-
-# # Remove Elastic Beanstalk files
-# if '{{ cookiecutter.use_elasticbeanstalk_experimental }}'.lower() != 'y':
-#     remove_elasticbeanstalk()
-
-# # Remove files conventional to opensource projects only.
-# if '{{ cookiecutter.open_source_license }}' == 'Not open source':
-#     remove_open_source_files()

@@ -43,5 +43,8 @@
     "year": "{% now 'utc', '%Y' %}",
     "date": "{% now 'utc', '%Y-%M-%D' %}",
     "custom_bootstrap_compilation": "y",
-    "_extensions": ["jinja2_time.TimeExtension"]
+    "_extensions": ["jinja2_time.TimeExtension"],
+    "_copy_without_render": [
+        "src/first_app/app/app/templates/*"
+    ]
 }

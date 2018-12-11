@@ -1,9 +1,9 @@
 .. cookiecutter-django documentation master file.
 
-Welcome to Cookiecutter Django's documentation!
+Welcome to Cookiecutter-Nyimbi's documentation!
 ====================================================================
 
-A Cookiecutter_ template for Django.
+A Cookiecutter_ template for building both Web and AI Applications.
 
 .. _cookiecutter: https://github.com/audreyr/cookiecutter
 

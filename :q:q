@@ -38,7 +38,7 @@
     "first_app": "app_full",
     "doc_bibtex":"yes",
     "doc_nomenclature":"yes",
-    "s3_bucket": "a",
+    "s3_bucket": "a"
     "year": "{% now 'utc', '%Y' %}",
     "_extensions": ["jinja2_time.TimeExtension"]
 }

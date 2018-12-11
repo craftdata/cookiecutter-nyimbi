@@ -4,4 +4,4 @@ Reference
 .. toctree::
     :glob:
 
-    {{ cookiecutter.package_name }}*
+    {{ cookiecutter.repo_name }}*

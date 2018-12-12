@@ -21,7 +21,7 @@
     "first_app": "app_full",
     "bibtex":"yes",
     "nomenclature":"yes",
-    "date": "{% now 'utc', '%Y-%m-%d' %}",
+    "date": "{% now 'utc', '%d-%m-%Y / %H:%M' %}",
     "custom_bootstrap_compilation": "y",
     "_extensions": ["jinja2_time.TimeExtension"],
     "_copy_without_render": [

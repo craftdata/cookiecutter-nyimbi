@@ -1,4 +1,14 @@
-# Cookiecutter Data Science
+# Cookiecutter DataCraft Projects
+Derived from a bunch of cookiecutters that I like, most notably
+- DataScience
+- Flask-foundation
+- Python
+
+    The AI components are in the ./src/AI directory
+    while the flask-appbuilder source is in ./src/first_app
+
+
+
 
 _A logical, reasonably standardized, but flexible project structure for doing and sharing data science work._
 
